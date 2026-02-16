@@ -1,0 +1,12 @@
+<h2>Inicio</h2>
+<p>API Series</p>
+
+<h2>LISTADO</h2>
+
+<ul>
+  @for (serie of series; track serie.id) {
+    <li>
+      {{serie.title}} - {{serie.channel}} // {{serie.rating}}
+    </li>
+  }
+</ul>
